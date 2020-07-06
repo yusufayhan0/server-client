@@ -225,7 +225,7 @@ int main(int argc , char *argv[]){
     puts("Waiting for connection...");
     c = sizeof(struct sockaddr_in);
     
-    pthread_t tid[60];
+    pthread_t tid[480];
     new_sock = malloc(480*sizeof(int));
     while(1){
 
